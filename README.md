@@ -9,11 +9,11 @@ So let see a little bit about each patter and apply them in a simple code exampl
 
 ## Learnins:
 
-1 - Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should only have one responsibility.
-2 - Open/Closed Principle (OCP): Software entities (classes, modules, functions) should be open for extension but closed for modification.
-3 - Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types without affecting program correctness.
-4 - Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
-5 - Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules; both should depend on abstractions.
+1. **Single Responsibility Principle (SRP):** A class should have only one reason to change, meaning it should only have one responsibility.
+2. **Open/Closed Principle (OCP):** Software entities (classes, modules, functions) should be open for extension but closed for modification.
+3. **Liskov Substitution Principle (LSP):** Subtypes must be substitutable for their base types without affecting program correctness.
+4. **Interface Segregation Principle (ISP):** Clients should not be forced to depend on interfaces they do not use.
+5. **Dependency Inversion Principle (DIP):** High-level modules should not depend on low-level modules; both should depend on abstractions.
 
 ## ❌ Without SOLID (Bad Design)
 
@@ -26,11 +26,11 @@ So let see a little bit about each patter and apply them in a simple code exampl
 
 ## How SOLID was applied:
 
-- SRP: Order only handles order-related logic.
-- OCP: We can add new OrderRepository implementations without modifying existing code.
-- LSP: DatabaseOrderRepository and EmailNotificationService can be replaced with other implementations (e.g., FileOrderRepository).
-- ISP: OrderRepository and NotificationService are separate interfaces.
-- DIP: OrderService depends on abstractions (OrderRepository, NotificationService) instead of concrete implementations.
+- SRP: **Order** only handles order-related logic.
+- OCP: We can add new **OrderRepository** implementations without modifying existing code.
+- LSP: **DatabaseOrderRepository** and **EmailNotificationService** can be replaced with other implementations (e.g., **FileOrderRepository**).
+- ISP: **OrderRepository** and **NotificationService** are separate interfaces.
+- DIP: **OrderService** depends on abstractions (**OrderRepository, NotificationService**) instead of concrete implementations.
 
 
 ## Benefits:
