@@ -1,19 +1,19 @@
 
 # SOLID Introduction
 
-This week in my free time I sow a gay in Youtube talking about how SOLID pattern is cool and practical, so I decided to read about theory and see how this is put in practice. 
+This week in my free time I sow a gay in Youtube talking about how SOLID pattern is very interested, so I decided to read about theory and see how this is put in practice. 
 
-As incredible as it may seem, I have been applying them to my codes for a long time, since when got a degree in college FACCAT, in 2014. I apply it but I didn’t know the real name of each pattern.
+As incredible as it may seem, I have been applying this patters in my codes for a long time, since when got a degree in college FACCAT, in 2014. I apply it but I didn’t know the real name of each one.
 
 So let see a little bit about each patter and apply them in a simple code example.
 
 ## Learnins:
 
-    1.	Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should only have one responsibility.
-    2.	Open/Closed Principle (OCP): Software entities (classes, modules, functions) should be open for extension but closed for modification.
-    3.	Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types without affecting program correctness.
-    4.	Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
-    5.	Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules; both should depend on abstractions.
+1 - Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should only have one responsibility.
+2 - Open/Closed Principle (OCP): Software entities (classes, modules, functions) should be open for extension but closed for modification.
+3 - Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types without affecting program correctness.
+4 - Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
+5 - Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules; both should depend on abstractions.
 
 ## ❌ Without SOLID (Bad Design)
 
