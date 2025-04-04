@@ -75,3 +75,9 @@ We will user Mockito to mock dependencies like **OrderRepository** and **Notific
     - **testProcessOrder_CallsSaveAndSendMethods()**:
         - Ensures **save()** is called once when processing an order.
         - Ensures **send()** is called once when an order is processd.
+
+## Running the Tests
+Using Maven, run:
+````
+mvn test
+````
