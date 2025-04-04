@@ -15,9 +15,13 @@ So let see a little bit about each patter and apply them in a simple code exampl
     4.	Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
     5.	Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules; both should depend on abstractions.
 
-## Code Example
+## ❌ Without SOLID (Bad Design)
 
- - [Github](https://github.com/oliveira-jo/car-rental-api)
+<img src="src/main/resources/imgs/Order-without-solid-classes.png"/>
+
+## ✅ With SOLID (Better Design)
+
+<img src="src/main/resources/imgs/Order-solid-classes.png"/>
 
 
 ## How SOLID was applied:
@@ -30,7 +34,7 @@ So let see a little bit about each patter and apply them in a simple code exampl
 
 
 ## Benefits:
-- More modular and maintainable;
-- Easy to extend without modifying existing code;
-- Easy to test with mock implementations.
+- ✅ More modular and maintainable;
+- ✅ Easy to extend without modifying existing code;
+- ✅ Easy to test with mock implementations.
  
