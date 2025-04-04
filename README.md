@@ -1,13 +1,13 @@
 
-# SOLID Introduction
+# Introduction
 
-This week in my free time I sow a gay in Youtube talking about how SOLID pattern is very interested, so I decided to read about theory and see how this is put in practice. 
+This week, in my free time, I watched a gay on Youtube talking about how the SOLID principles are very interested, so I decided to read about theory and see how they are applied in practive. 
 
-As incredible as it may seem, I have been applying this patters in my codes for a long time, since when got a degree in college FACCAT, in 2014. I apply it but I didn’t know the real name of each one.
+As incredible as it may seem, I've been applying this patters in my code for a long time, since got my degree at FACCAT, in 2014. I was using them, but I didn't know the actual names of each one.
 
-So let see a little bit about each patter and apply them in a simple code example.
+So let`s take a look ate each pattern and apply them in a simple code example.
 
-## Learnins:
+## SOLID Principle:
 
 1. **Single Responsibility Principle (SRP):** A class should have only one reason to change, meaning it should only have one responsibility.
 2. **Open/Closed Principle (OCP):** Software entities (classes, modules, functions) should be open for extension but closed for modification.
@@ -37,4 +37,41 @@ So let see a little bit about each patter and apply them in a simple code exampl
 - ✅ More modular and maintainable;
 - ✅ Easy to extend without modifying existing code;
 - ✅ Easy to test with mock implementations.
- 
+
+## Tests with JUnit 
+
+Here are JUnit 5 test cases for the SOLID Order Processing System implementation
+
+If you are using Maven, add this dependency to pom.xml
+````
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>4.8.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+````
+
+## Unit Tests for Order Processing System
+
+We will user Mockito to mock dependencies like **OrderRepository** and **NotificationService**
+
+<img src="src/main/resources/imgs/test.png"/>
+
+## Explanatio of the Tests
+
+- **OrderTest**
+    - **testCalculateTotal()**: VErifies that the total price calculation works correctly.
+- **OrderServiceTest**
+    - **setUp()**: Users Mockito to create mock objects before each  test.
+    - **testProcessOrder_CallsSaveAndSendMethods()**:
+        - Ensures **save()** is called once when processing an order.
+        - Ensures **send()** is called once when an order is processd.
