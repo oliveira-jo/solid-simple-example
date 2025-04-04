@@ -23,7 +23,7 @@ class OrderTest {
         new Item("Laptop", 1200.0));
     Order order = new Order(items);
 
-    assertEquals(2200.0, order.calculateTotal(), 0.01);
+    assertEquals(2200.0, order.calculateTotal());
 
   }
 }

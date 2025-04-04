@@ -5,7 +5,7 @@ This week, in my free time, I watched a gay on Youtube talking about how the SOL
 
 As incredible as it may seem, I've been applying this patters in my code for a long time, since got my degree at FACCAT, in 2014. I was using them, but I didn't know the actual names of each one.
 
-So let`s take a look ate each pattern and apply them in a simple code example.
+So let's take a look ate each pattern and apply them in a simple code example.
 
 ## SOLID Principle:
 
@@ -40,31 +40,17 @@ So let`s take a look ate each pattern and apply them in a simple code example.
 
 ## Tests with JUnit 
 
-Here are JUnit 5 test cases for the SOLID Order Processing System implementation
-
-If you are using Maven, add this dependency to pom.xml
-````
-<dependencies>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.9.2</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>4.8.0</version>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
-````
+Here's a good topic to discuss: Using JUnit 5 test cases for Order Processing  implementation.
 
 ## Unit Tests for Order Processing System
 
-We will user Mockito to mock dependencies like **OrderRepository** and **NotificationService**
+I'll user Mockito to mock dependencies like **OrderRepository** and **NotificationService**
 
-<img src="src/main/resources/imgs/test.png"/>
+### Order Test
+<img src="src/main/resources/imgs/OrderTest.png"/>
+
+### Order Service Test
+<img src="src/main/resources/imgs/OrderServiceTest.png"/>
 
 ## Explanatio of the Tests
 
@@ -81,3 +67,4 @@ Using Maven, run:
 ````
 mvn test
 ````
+
