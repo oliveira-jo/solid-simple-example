@@ -1,7 +1,7 @@
 
 # SOLID Introduction
 
-This week in my free time and during studying English, I sow a gay in Youtube talking about how SOLID pattern is cool and practical, so I decided to read about theory and see how this is put in practice. 
+This week in my free time I sow a gay in Youtube talking about how SOLID pattern is cool and practical, so I decided to read about theory and see how this is put in practice. 
 
 As incredible as it may seem, I have been applying them to my codes for a long time, since when got a degree in college FACCAT, in 2014. I apply it but I didn’t know the real name of each pattern.
 
